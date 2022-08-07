@@ -1,0 +1,11 @@
+:root {
+  --top_left: 25px;
+}
+.navigation {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  top: var(--top_left);
+  left: var(--top_left);
+}
