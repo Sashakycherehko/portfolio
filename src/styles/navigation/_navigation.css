@@ -2,10 +2,26 @@
   --top_left: 25px;
 }
 .navigation {
-  position: absolute;
+  position: fixed;
   height: 50px;
   width: 50px;
   border: 1px solid black;
   top: var(--top_left);
   left: var(--top_left);
+  cursor: pointer;
+}
+
+.navigation > span {
+  position: relative;
+  width: 20px;
+  height: 4px;
+  background-color: #000;
+  display: block;
+  top: 50%;
+  left: 25%;
+}
+
+.navigation > .btn-1 {
+  top: 40%;
+  width: 25px;
 }
