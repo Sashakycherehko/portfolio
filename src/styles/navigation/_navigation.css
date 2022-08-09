@@ -1,27 +1,26 @@
 :root {
   --top_left: 25px;
 }
-.navigation {
+
+.info-navigation {
   position: fixed;
-  height: 50px;
+  width: 219px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-navigation span {
+  font-size: 29px;
+}
+
+.info-navigation > .navigation-key {
+  height: 100%;
   width: 50px;
-  border: 1px solid black;
-  top: var(--top_left);
-  left: var(--top_left);
-  cursor: pointer;
-}
-
-.navigation > span {
-  position: relative;
-  width: 20px;
-  height: 4px;
-  background-color: #000;
-  display: block;
-  top: 50%;
-  left: 25%;
-}
-
-.navigation > .btn-1 {
-  top: 40%;
-  width: 25px;
+  border: 1px solid salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
 }
