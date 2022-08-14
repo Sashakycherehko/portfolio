@@ -1,29 +1,20 @@
 :root {
   --top_left: 25px;
+  --grid-column: repeat(12, 1fr);
 }
 
-.info-navigation {
-  position: fixed;
-  width: 219px;
-  height: 49px;
-  left: 15%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.nav {
+  height: 120px;
+  display: grid;
+  grid-template-columns: var(--grid-column);
+  font-size: 26px;
 }
 
-.info-navigation span {
-  font-size: 29px;
+.nav > a {
+  text-decoration: none;
+  margin: auto;
 }
-
-.info-navigation > .navigation-key {
-  height: 100%;
-  width: 50px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -2px;
-  color: #000;
-  box-shadow: 0 5px 60px 5px rgb(255, 255, 255);
+.nav > .nav-link_ukraine {
+  color: #f1ff2d;
+  grid-column: 6;
 }

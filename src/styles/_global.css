@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 18px;
   cursor: none;
 }
 
@@ -29,4 +28,10 @@ body {
   border: 1px solid rgba(80, 80, 80, 0.829);
   border-radius: 50%;
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+  height: 100vh;
 }
